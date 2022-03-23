@@ -1,0 +1,57 @@
+.card-customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 88px;
+    /* background: #F78434; */
+    background-color: #ffffff;
+    color: #323232;
+    box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
+    text-align: center;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.card-customer:hover {
+    background-color: #F78434;
+    color: #ffffff;
+}
+
+.customer-card-svg {
+    fill: #F78434;
+}
+
+.card-customer:hover .customer-card-svg {
+    fill: #fff;
+}
+
+.card-customer-text {
+    margin-bottom: 25px;
+}
+
+.button-serv-hover {
+    display: inline-block;
+    height: 58px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border-radius: 29px;
+    background-color: #f78434;
+
+    line-height: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: background-color 0.2s ease-in;
+}
+
+.card-customer:hover .button-serv-hover {
+    background-color: #ffffff;
+    color: #F78434;
+}
+
+
+
+

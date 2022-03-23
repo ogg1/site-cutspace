@@ -1,0 +1,48 @@
+.objects {
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.object-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.object-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.object-text > .object-title {
+    margin-bottom: 20px;
+    line-height: 148%;
+}
+
+.object-text {
+    flex-shrink: 0;
+    
+    max-width: 693px;
+    padding-left: 181px;
+    padding-right: 150px;
+}
+
+.object-text p + p {
+    margin-bottom: 20px;
+}
+
+.object-desc {
+    font-weight: 400;
+    line-height: 169%;
+    letter-spacing: 1.15px;
+}
+
+.object-button {
+    margin-top: 20px;
+}
+
+
+    
+

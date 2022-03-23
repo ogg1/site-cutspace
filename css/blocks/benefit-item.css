@@ -1,0 +1,33 @@
+.benefits-item {
+    text-align: center;
+}
+
+.benefit-item-img {
+    margin-bottom: 15px;
+}
+
+.benefits-item:hover circle {
+    fill: #F78434;
+    fill-opacity: 1;
+}
+
+.benefits-item:hover path {
+    fill: white;
+}
+
+.benefits-item:hover ellipse {
+    fill: white;
+}
+
+.benefit-item-title {
+    margin-bottom: 2px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+}
+
+.benefit-item-desc {
+    line-height: 169%;
+    letter-spacing: 1.15px;
+}

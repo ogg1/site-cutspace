@@ -1,0 +1,57 @@
+.contacts {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 55px;
+    background-image: url(../../img/experience/background.svg);
+    background-size: cover;
+}
+
+.contacts::before {
+    position: absolute;
+    
+    content: "";
+    display: block;
+
+    top: 1;
+    left: 50%;
+
+    width: 743px;
+    height: 372px;
+
+    background-image: url(../../img/experience/oval-footer.svg);
+    background-size: initial;
+}
+
+.contacts::after {
+    position: absolute;
+    
+    content: "";
+    display: block;
+
+    bottom: 0;
+    left: 50%;
+    margin-left: 79px;
+
+    width: 478px;
+    height: 547px;
+
+    background-image: url(../../img/experience/girl.png);
+    background-size: initial;
+}
+
+.concats-info {
+    color: white;
+    max-width: 349px;
+}
+
+.contact-title {
+    margin-bottom: 15px;
+    line-height: 148%;  
+    letter-spacing: 0.8px;
+}
+
+.contact-text {
+    margin-bottom: 30px;
+    line-height: 169%;      
+    letter-spacing: 1.15px;
+}

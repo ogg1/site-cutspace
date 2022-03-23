@@ -1,0 +1,50 @@
+.header {
+    padding-top: 35.79px;
+    padding-bottom: 33.79px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 3px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li:not(:last-child) {
+    margin-right: 42px;
+}
+
+.nav a {
+    color: #323232;
+}
+
+.nav a.active {
+    color: #F78434;
+    font-weight: 700;
+}
+
+.nav a:hover {
+    color: #F78434; 
+}
+
+
+
+
+
+
+
+
+

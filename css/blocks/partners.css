@@ -1,0 +1,12 @@
+.partners {
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.partners-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}

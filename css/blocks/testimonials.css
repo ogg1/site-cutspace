@@ -1,0 +1,47 @@
+.testimonials {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.testimonials-heading {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials-title {
+    max-width: 460px;
+}
+
+.title-pro {
+    line-height: 148%;
+}
+
+
+.testimonials-subtitle {
+    max-width: 400px;
+}
+
+.testimonial-desc {
+    line-height: 169%;
+    letter-spacing: 1.15px;
+}
+
+.testimonials-row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.testimonials-row::after {
+    position: absolute;
+    content: "";
+    right: -40px;
+    top: -40px;
+
+    width: 80px;
+    height: 80px;
+    background-image: url(../../img/nice-words/design-element.svg);
+}
